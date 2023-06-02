@@ -20,6 +20,7 @@ class Basepage:
         self._navbar_mega_menu_btn = page.get_by_role("button", name="Mega Menu")
         self._navbar_addons_btn = page.get_by_role("button", name="AddOns Featured")
         self._navbar_my_account_btn = page.get_by_role("button", name="My account")
+        #dd
         # Leftsidebar
         self._leftsidebar_category_open_btn = page.get_by_role("button", name="Shop by Category")
         self._leftsidebar_categories = page.locator("(//li[@class='nav-item'])") # all categories within the sidebar - chose category from 0 - 14
